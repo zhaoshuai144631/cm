@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.UserDAO">
+    <select id="queryMen" resultType="com.baizhi.entity.Month">
+        select month(date) ,count(*) from user where sex='男' group by
+        month (date)
+    </select>
+    <select id="queryWomen" resultType="com.baizhi.entity.Month">
+        select month(date) ,count(*) from user where sex='女' group by
+        month (date)
+    </select>
+
+</mapper>
