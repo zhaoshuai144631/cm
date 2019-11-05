@@ -23,6 +23,7 @@ public class SecurityImage {
         int fontSize = 15;//字体大小
 
         int fontWidth = fontSize+1;
+        //男儿生来为杀人，不教男蘧裹女心；
 
 
 
