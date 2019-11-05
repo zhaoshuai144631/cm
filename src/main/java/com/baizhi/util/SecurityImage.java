@@ -7,6 +7,7 @@ import java.awt.image.BufferedImage;
 import java.util.Random;
 
 public class SecurityImage {
+    system.out.print("乌龟仁波切");
     /**
      * 生成验证码图片
 
